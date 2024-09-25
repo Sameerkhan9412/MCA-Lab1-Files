@@ -15,11 +15,11 @@ int main() {
     // Check if multiplication is possible
     if (colsA != rowsB) {
         cout << "Matrix multiplication is not possible. Number of columns in the first matrix must equal number of rows in the second matrix." << endl;
-        return;
+        return 0;
     }
 
     // Declare matrices
-    int matrixA[rowsA][colsA], matrixB[rowsB][colsB], product[rowsA][colsB];
+    int matrixA[rowsA][colsA], matrixB[rowsB][colsB], product[rowsA][colsB]={0};
 
     // Input elements of the first matrix
     cout << "Enter elements of first matrix:\n";
@@ -36,13 +36,6 @@ int main() {
         for (int j = 0; j < colsB; j++) {
             cout << "Element [" << i << "][" << j << "]: ";
             cin >> matrixB[i][j];
-        }
-    }
-
-    // Initialize the product matrix to 0
-    for (int i = 0; i < rowsA; i++) {
-        for (int j = 0; j < colsB; j++) {
-            product[i][j] = 0;
         }
     }
 
