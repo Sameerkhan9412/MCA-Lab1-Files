@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int reverseAnArray(int arr[],int n){
+void reverseAnArray(int arr[],int n){
     int start=0;
     int end=n-1;
     while(start<=end){
@@ -9,7 +9,7 @@ int reverseAnArray(int arr[],int n){
         end--;
     }
 }
-int printArray(int arr[],int n){
+void printArray(int arr[],int n){
     int i=0;
     while(i<n){
         cout<<arr[i]<<" ";

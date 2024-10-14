@@ -16,7 +16,7 @@ void decrement(int &n,int dec){
 }
 int main(){
     int num,inc=0,dec=0;
-    cout<<"Enter Number to print address:";
+    cout<<"Enter Number:";
     cin>>num;
     cout<<"How much increment and decrement";
     cin>>inc>>dec;

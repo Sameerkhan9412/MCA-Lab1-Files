@@ -20,6 +20,6 @@ int main(){
         cin>>arr[i];
     }
     int secondMax=findMax(arr,n);
-    cout<<secondMax;
+    cout<<"The second Max Element is"<<secondMax;
     return 0;
 }

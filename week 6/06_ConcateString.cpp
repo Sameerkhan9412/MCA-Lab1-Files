@@ -15,7 +15,7 @@ void concatenateStrings(char *str1, char *str2) {
 int main() {
     char str1[300]="Sameer";
     char str2[300]="Khan";
-    cout<<"Before Concate:"<<str1<<" "<<str2;
+    cout<<"Before Concate:"<<str1<<" "<<str2<<endl;
     concatenateStrings(str1, str2);
     printf("Concatenated string: %s\n", str1);
 
